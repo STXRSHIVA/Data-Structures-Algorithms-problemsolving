@@ -1,4 +1,4 @@
 ### DSA SHEET
 
 ## ARRAYS
-    - https://leetcode.com/problems/two-sum/
+  - [TWO SUM](https://leetcode.com/problems/two-sum/)
