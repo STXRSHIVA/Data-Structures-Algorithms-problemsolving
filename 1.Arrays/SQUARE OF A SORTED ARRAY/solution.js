@@ -28,7 +28,7 @@ let nums1 = [-4,-1,0,3,10]
 
 var sortedSquares2 = function(nums1){
     let n = nums1.length;
-    let result = Array(n);
+    let result = Array(n); // new empty array of lengh n
     let left = 0;
     let right = n-1;
     for(let i = n-1 ; i>=0 ; i--){
