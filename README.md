@@ -15,5 +15,12 @@
 
 
 
+## Adhoc
+  - [MULTIPLY STRINGS]()
 
+## ARRAYS AND TWO POINTERS
+  - [SORT COLORS - TRY WITH TWO POINTERS](https://leetcode.com/problems/sort-colors/description/)
+  - [REVERSE WORDS IN A STRING](https://leetcode.com/problems/reverse-words-in-a-string/description/)
+  - [4SUM - TRY WITH TWO POINTERS](https://leetcode.com/problems/4sum/description/)
+  - [MOVE ZEROES](https://leetcode.com/problems/move-zeroes/description/)
   
