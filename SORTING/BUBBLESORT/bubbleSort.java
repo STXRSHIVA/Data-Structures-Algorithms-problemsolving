@@ -1,13 +1,11 @@
 package BUBBLESORT;
 
 public class bubbleSort {
-
-    private static boolean isSwapped;
-
     public static void bubblesort(int[] arr) {
-        for(int i = 0 ; i < arr.length ; i++ ){
+        int n = arr.length;
+        for(int i = 0 ; i < n ; i++ ){
             boolean isSwapped = false;
-            for(int j = 0 ; j < arr.length - i - 1 ; j++){
+            for(int j = 0 ; j < n - i - 1 ; j++){
                 if(arr[j] > arr[j+1]){
                     int temp = arr[j];
                     arr[j] = arr[j+1];
@@ -15,9 +13,10 @@ public class bubbleSort {
                     isSwapped = true;
                 }
             }
-        }
-        if(isSwapped == false){
-            return;
+            // if no swapping occurs then array is sorted
+            if(isSwapped == false){ // return from function as array is sorted
+                return;
+            }
         }
     }
 
@@ -28,4 +27,4 @@ public class bubbleSort {
             System.out.println(arr[i]);
         }
     }
-}
+};
