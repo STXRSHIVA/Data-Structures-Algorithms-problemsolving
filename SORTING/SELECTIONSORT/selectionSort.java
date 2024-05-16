@@ -1,3 +1,5 @@
+package SELECTIONSORT;
+
 public class selectionSort {
 
     public static void selectionsort(int[] arr) {

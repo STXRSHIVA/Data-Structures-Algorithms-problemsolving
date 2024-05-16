@@ -1,3 +1,5 @@
+package SELECTIONSORT;
+
 public class RecursiveSelectionSort {
     // Recursive method to perform selection sort
     public static void recursiveSelectionSort(int[] arr, int start) {
