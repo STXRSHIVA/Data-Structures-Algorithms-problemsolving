@@ -15,7 +15,7 @@ public class mergesort {
                 k++;
                 i++;
             } else {
-                result[k] = right[j];
+                result[k] = right[j]; 
                 k++;
                 j++;
             }
